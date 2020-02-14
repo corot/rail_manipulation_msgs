@@ -1,5 +1,5 @@
 sudo: required
-dist: trusty
+dist: xenial
 language: generic
 compiler:
   - gcc
@@ -13,8 +13,8 @@ env:
 
 branches:
   only:
-    - master
-    - develop
+    - indigo-devel
+    - kinetic-devel
 
 install:
   - sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
