@@ -1,2 +1,3 @@
+bool only_surface  # segment just a support surface, no objects on top
 ---
 rail_manipulation_msgs/SegmentedObjectList segmented_objects
