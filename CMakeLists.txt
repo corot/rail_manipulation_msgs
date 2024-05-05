@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 2.8.3)
+cmake_minimum_required(VERSION 3.10)
 project(rail_manipulation_msgs)
 
 ## Find catkin macros and libraries
@@ -49,6 +49,7 @@ add_action_files(FILES
   Pickup.action
   Primitive.action
   RecognizeObject.action
+  SegmentObjects.action
   Store.action
   VerifyGrasp.action
 )
