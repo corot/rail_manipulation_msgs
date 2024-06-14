@@ -1,4 +1,5 @@
-bool only_surface  # segment just a support surface, no objects on top
+bool only_surface         # segment just a support surface, no objects on top
+float64 surface_min_side  # consider only surfaces with the sortest side of at least this length
 ---
 rail_manipulation_msgs/SegmentedObjectList segmented_objects
 ---
